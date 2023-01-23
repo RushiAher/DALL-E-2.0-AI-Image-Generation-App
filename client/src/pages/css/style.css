@@ -1,0 +1,139 @@
+.home-container .home-header h1{
+    font-size: 2rem;
+    margin-bottom: .6rem;
+}
+.home-container .home-header p{
+    font-size: 1.2rem;
+}
+.home-container .home-form-field{
+    margin-top: 2rem;
+}
+.home-container .home-loader-container{
+    margin-top: 2rem;
+}
+.home-container .home-loader-container .home-loader{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.2rem;
+}
+.home-container .home-loader-container h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin:1.5rem 0;
+}
+.home-container .home-loader-container .search-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.home-container .home-loader-container .post-grid-container
+.post-heading{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
+/* create-post page  */
+.post-container{
+    width: 70%;
+    margin-top: 2rem;
+}
+.post-container .post-header h1{
+    font-size: 2rem;
+    margin-bottom: .6rem;
+}
+.post-container .post-header p{
+    font-size: 1.2rem;
+}
+.post-container form{
+    max-width: 55rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-flow: column nowrap;
+}
+
+.post-container form .form-container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+/* ai generated image or preview image */
+.post-container form .form-container .ai-image-container{
+    margin-top: 2rem;
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+.post-container form .form-container .ai-image-container img{
+    width: 25rem;
+    height: 25rem;
+}
+.post-container form .form-container .ai-image-container .preview-img{
+    font-size: 15rem;
+    opacity: 0.7;
+}
+.post-container form .form-container .ai-image-container .generating-img-container{
+        position: absolute;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.post-container form .generate-image{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-container form .generate-image button{
+    background: #0e680e;
+    border: none;
+    border-radius: .5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .3rem;
+    color: var(--white);
+    font-weight: 400;
+    cursor: pointer;
+}
+.post-container form .share-image p{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    
+}
+.post-container form .share-image button{
+    background: #0d0da7;
+    border: none;
+    border-radius: .5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .3rem;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+/* images container */
+.home-container .home-loader-container .post-grid-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+}
+
+

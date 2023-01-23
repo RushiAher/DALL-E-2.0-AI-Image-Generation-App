@@ -1,0 +1,101 @@
+.form-field-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form-field-container label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.form-field-container .surpriseMe-btn{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: .5rem;
+    background: rgb(221, 221, 221);
+    border: none;
+    padding: .2rem .6rem;
+    cursor: pointer;
+}
+input{
+    padding: .5rem 1rem;
+    border-radius: .7rem;
+    outline: none;
+    border: 1px solid gray;
+}
+
+
+/* card component */
+.card-container{
+    position: relative;
+    border-radius: .5rem;
+    width: 30rem;
+}
+.card-container img{
+    border-radius: .5rem;
+    height: auto;
+    width: 100%;
+}
+.card-container .card-info{
+    position: absolute;
+        position: absolute;
+    bottom: 3px;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    display: none;
+}
+.card-container .card-info > p{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: .3rem 1rem;
+
+}
+.card-container .card-info .card-download{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+
+}
+.card-container .card-info .card-download > div{
+    display: flex;
+    gap: 1rem;
+}
+.card-container .card-info .card-download .card-name-logo{
+        color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    background: #006000;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container .card-info .card-download >div>p{
+font-size: 1.2rem;
+color: var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+}
+.card-container .card-info .card-download .download-btn{
+    color: var(--white);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.card-container .card-info .card-download .download-btn:hover{
+    color: rgb(216, 214, 214);
+}
+.card-container:hover .card-info{
+    display: flex;
+}
